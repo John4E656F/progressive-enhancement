@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>Chinese Farmer</title>
+        <style>
+            * {
+                font-family: 'Open Sans', sans-serif;
+            }
+            header > p {
+                background-color: yellow;
+            }
+            body {
+                width: 90%;
+                margin: 5%;
+                background: -webkit-linear-gradient(90deg, rgb(255, 255, 255), rgb(227, 211, 131));
+                background: linear-gradient(90deg, rgb(255, 255, 255), rgb(227, 211, 131));
+                background-image: url(https://images.unsplash.com/photo-1634655377962-e6e7b446e7e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+                background-repeat: no-repeat;
+                background-position: right bottom;
+                background-size: cover;
+            }
+            table, th, td {
+                border: 1px solid;
+                border-collapse: collapse;
+                width: 30%;
+                text-align: center;
+            }
+            th {
+                background-color: antiquewhite;
+            }
+            tr:nth-child(odd) {
+                background-color: antiquewhite;
+            }
+            h2 {
+                color: rgb(0, 0, 0);
+            }
+            p {
+                font-size: 20px;
+                word-spacing: 0.5px;
+                color: rgb(6, 6, 92);
+            }
+            blockquote {
+                font-size: 20px;
+                font-family: serif;
+                word-spacing: 0.5px;
+                color: rgb(6, 6, 92);
+                width: 50%; 
+                background-color: rgb(216, 210, 210); 
+                border-left: 3px solid Firebrick;  
+                font-size: 160%; 
+                padding-left: 30px;
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+            #Typesofpeople > li:nth-child(1) {
+                background-image: url("bien.png") ;
+                background-repeat: no-repeat;
+                background-position: 75%;
+                background-size: contain;
+            }
+            #Typesofpeople > li:nth-child(2) {
+                background-image: url("mal.png") ;
+                background-repeat: no-repeat;
+                background-position: 75%;
+                background-size: contain;
+            }
+            #Typesofpeople > li:nth-child(3) {
+                background-image: url("chat.png") ;
+                background-repeat: no-repeat;
+                background-position: 75%;
+                background-size: contain;
+            }
+            .flexbox {
+                display: flex;
+            }
+            .content {
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .content > .lastp {
+                display: flex;
+                justify-content: flex-start; 
+            }
+            a:visited {
+                color: rgb(7, 126, 45);
+            }
+            a:hover {
+                color:rgb(30, 152, 223)
+            }
+            .Villagers {
+                border-left: 3px solid blue;
+            }
+            .Farmer {
+                border-left: 3px solid rgb(181, 9, 181);
+            }
+            .bad {
+                text-transform: capitalize;
+                color: red;
+            }
+            .good {
+                text-transform: capitalize;
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <header> 
+            <p>Week 2 : Learning about HTML & CSS</p> 
+        </header>
+        <h1 style="color: rgb(0, 0, 0); text-align: center;">The Story of the Chinese Farmer</h1>
+        <h2>Good & Bad:</h2>
+        <blockquote>Is it a <strong class="good">good</strong> thing? Is that a <strong class="bad">bad</strong> thing? I don't know.<p><em>May 11, 2016, Alexandre Gorius</em></p></blockquote>
+        <hr>
+        <blockquote> In nature, <strong class="good">good</strong> & <strong class="bad">Evil</strong> do not exist. The Universe itself is neither <strong class="good">good</strong> nor <strong class="bad">bad</strong>, but a potential in permanent development.</blockquote>
+        <hr>
+        <blockquote>In life, there are 4 types of people:
+            <ul id="Typesofpeople">
+                <li>people who think the Internet is <strong class="good">good</strong>,</li>
+                <li>people who think the Internet is <strong class="bad">evil</strong>,</li>
+                <li>people who think the Internet is cats,</li>
+                <li>people who don't think about it.</li>
+            </ul>
+            Found out more in <a href="https://www.amazon.fr/dp/1577311809/ref=as_li_ss_tl?language=en_US&ie=UTF8&linkCode=gs2&linkId=e793add9bb697066facd6d40ee28dfec&tag=wells012007-21" target="_blank">Alan Watts' book.</a>
+        </blockquote>
+        <div class="flexbox">
+            <figure class="IMG">
+                <a href="im1.jpeg" target="_blank"><img src="im1.jpeg" alt="types of people"></a>
+            </figure></br>
+            <div class="content">
+                <p style="text-align: justify;"><b>Up in space, turning around, looking at the earth’s face. From that rock’s perspective on Mars or that gaz opinion from Jupiter, nothing cares about your problems. Up there, it’s just not serious, and there’s no such thing as an issue.</b></p>
+                <p style="text-align: justify;">Down here, the only reality is the one inside our brain. Nothing exists if the brain doesn’t think it. Nothing exists neither if our senses don’t transmit the message. That means that if we missense, our reality changes. That’s possible because our perception is limited : you can’t see at 360 degrees for example. If we mistranslate the message, our reality changes. If we think it in a way, our reality changes depending on that way. Therefore, if we can change reality that much, everything’s fake. </p>
+                <p class="lastp" style="text-align: justify;">They’re proofs to that. Fall in love with someone and you’ll see that person as divine. Pull yourself out of that grip and the divine falls from clouds to solid ground, revealing him or herself differently. But the person is the same, you just changed your mind. Everything works like that : it’s not just that you can make your world, it’s that you passively do it anyway. </p>
+            </div>
+        </div>
+        <figure>
+            <a href="http://static2.businessinsider.com/image/52fe8230eab8ea4275063b89/nasa-has-determined-where-the-mysterious-jelly-doughnut-rock-on-mars-came-from.jpg" target="_blank"><img src="http://static2.businessinsider.com/image/52fe8230eab8ea4275063b89/nasa-has-determined-where-the-mysterious-jelly-doughnut-rock-on-mars-came-from.jpg" alt="a circled stone on the ground"></a>
+            <figcaption><em>What does he think about it?</em></figcaption>
+        </figure>
+        <h2>The story:</h2>
+        <figure>
+            <a href="https://cdn-images-1.medium.com/max/800/1*IQqkmPXYZuJViY5p-ymk0A.jpeg" target="_blank" title="This is an image of a Chinese man sitting in his house."><img src="https://cdn-images-1.medium.com/max/800/1*IQqkmPXYZuJViY5p-ymk0A.jpeg" alt="Chinese man sitting down in house"></a>
+            <figcaption><em>The Old Chinese Farmer</em></figcaption>
+        </figure>
+        <p style="text-align: justify;">
+            Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q class="Villagers"><i>We are so sorry to hear your horse has run away. This is most unfortunate.</i></q> The farmer said, <q class="Farmer"><i>Is it <strong class="good">good</strong>? Is it <strong class="bad">bad</strong>? I don't know.</i></q> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q class="Villagers"><i>Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</i></q> The farmer again said, <q class="Farmer"><i>Is it <strong class="good">good</strong>? Is it <strong class="bad">bad</strong>? I don't know.</i></q> </br></br>
+            The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q class="Villagers"><i>Oh dear, that’s too bad,</i></q> and the farmer responded, <q class="Farmer"><i>Is it <strong class="good">good</strong>? Is it <strong class="bad">bad</strong>? I don't know.</i></q> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q class="Villagers"><i>Isn’t that great!</i></q> Again, he said, <q class="Farmer"><i>Is it <strong class="good">good</strong>? Is it <strong class="bad">bad</strong>? I don't know.</i></q> </br></br>
+            The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <strong class="good">good</strong> or <strong class="bad">bad</strong> — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of <strong class="good">good</strong> fortune. </br></br>
+        <cite>Alan Watts</cite></p>
+        <h3>Here is this dialog in the form of a table</h3>
+        <caption>
+            <p><b>Table 1:</b></p>
+            <p><em>Table representing the farmer's philosophy.</em></p>
+        </caption>
+        <table>
+            <tr>
+                <th>Event</th>
+                <th>Good or Bad?</th>    
+            </tr>
+            <tr>
+                <td>Lose a horse</td>
+                <td><em>Maybe</em></td>
+            </tr>
+            <tr>
+                <td>Win more horses</td>
+                <td><em>Maybe</em></td>
+            </tr>
+            <tr>
+                <td>Son injury</td>
+                <td><em>Maybe</em></td>
+            </tr>
+            <tr>
+                <td>Avoid war</td>
+                <td><em>Maybe</em></td>
+            </tr>
+        </table>
+        <h2>Conclusion</h2>
+        <p><strong class="good">good</strong> and <strong class="bad">bad</strong> are just one perspective. Bananas are <strong class="good">good</strong> for monkeys, but monkeys are not <strong class="good">good</strong> for bananas. Let's not make a big deal out of it...</p>
+        </br><hr>
+        <footer> &copy; Copyright Just Another Company 2017. All right reserved. Adapted from <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/" title="This link leads to the page of the article by Alan Watts."> >> this article << 
+        </footer>
+    </body>
+</html>

@@ -1,3 +1,89 @@
 table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: rgb(177, 175, 175);
+}
+tr:nth-child(odd){
+    background-color: gray;
+}
+
+#typeofpeople>li:nth-child(1){
+    background-image: url(/bien.png);
+    padding-right: 10%;
+}
+#typeofpeople>li:nth-child(2){
+    background-image: url(/mal.png);
+    padding-right: 10%;
+}
+#typeofpeople>li:nth-child(3){
+    background-image: url(/chat.png);
+    padding-right: 10%;
+}
+header > p {
+    background-color: yellow;
+    text-align: center;
+}
+p {
+    font-family: serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: rgb(42, 0, 0);
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+body{
+    max-width: 90%;
+    margin: auto;
+    background: -webkit-linear-gradient(-46deg, rgb(237, 84, 22), rgb(211, 202, 61));
+    background:url(/bluesky.jpg), linear-gradient(-46deg, rgb(237, 84, 22), rgb(211, 202, 61));
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+blockquote{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 160%;
+    background-color: rgb(101, 101, 101);
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: firebrick;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style: italic;
+}
+
+.Villagers{
+    border-left: 3px solid blueviolet;
+}
+
+.Farmer{
+    border-left: 3px solid aqua;
+}
+
+.good{
+    text-transform: uppercase;
+    color: green;
+}
+.bad{
+    text-transform: uppercase;
+    color: red;
+}
+
+.flexbox{
+    display: flex;
+}
+.flexbox p{
+    padding-left: 10px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
 }
